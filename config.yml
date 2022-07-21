@@ -76,7 +76,7 @@ levels:
     namePrefix: ''
     mayorPostfix: ''
     townBlockLimit: 32
-    upkeepModifier: 1.0
+    upkeepModifier: 1.1
     townOutpostLimit: 0
   - numResidents: 2
     debtCapModifier: 1.0
@@ -86,7 +86,7 @@ levels:
     namePrefix: ''
     mayorPostfix: ''
     townBlockLimit: 96
-    upkeepModifier: 1.0
+    upkeepModifier: 1.2
     townOutpostLimit: 1
   - numResidents: 6
     debtCapModifier: 1.0
@@ -96,7 +96,7 @@ levels:
     namePrefix: ''
     mayorPostfix: ''
     townBlockLimit: 120
-    upkeepModifier: 1.0
+    upkeepModifier: 1.3
     townOutpostLimit: 1
   - numResidents: 10
     debtCapModifier: 1.0
@@ -106,7 +106,7 @@ levels:
     namePrefix: ''
     mayorPostfix: ''
     townBlockLimit: 160
-    upkeepModifier: 1.0
+    upkeepModifier: 1.4
     townOutpostLimit: 2
   - numResidents: 14
     debtCapModifier: 1.0
@@ -116,7 +116,7 @@ levels:
     namePrefix: ''
     mayorPostfix: ''
     townBlockLimit: 224
-    upkeepModifier: 1.0
+    upkeepModifier: 1.5
     townOutpostLimit: 2
   - numResidents: 20
     debtCapModifier: 1.0
@@ -126,7 +126,7 @@ levels:
     namePrefix: ''
     mayorPostfix: ''
     townBlockLimit: 250
-    upkeepModifier: 1.0
+    upkeepModifier: 1.6
     townOutpostLimit: 3
   - numResidents: 24
     debtCapModifier: 1.0
@@ -136,7 +136,7 @@ levels:
     namePrefix: ''
     mayorPostfix: ''
     townBlockLimit: 320
-    upkeepModifier: 1.0
+    upkeepModifier: 1.7
     townOutpostLimit: 3
   - numResidents: 28
     debtCapModifier: 1.0
@@ -146,14 +146,14 @@ levels:
     namePrefix: ''
     mayorPostfix: ''
     townBlockLimit: 448
-    upkeepModifier: 5.0
+    upkeepModifier: 1.98
     townOutpostLimit: 4
   
   # Guide On How to Configure: https://github.com/TownyAdvanced/Towny/wiki/How-Towny-Works#configuring-town_level-and-nation_level
   nation_level:
   - kingPostfix: ''
     capitalPostfix: ''
-    upkeepModifier: 1.0
+    upkeepModifier: 1.2
     kingPrefix: 'Leader '
     capitalPrefix: ''
     numResidents: 0
@@ -165,7 +165,7 @@ levels:
     nationTownUpkeepModifier: 1.0
   - kingPostfix: ''
     capitalPostfix: ''
-    upkeepModifier: 1.0
+    upkeepModifier: 1.3
     kingPrefix: 'Count '
     capitalPrefix: ''
     numResidents: 10
@@ -177,7 +177,7 @@ levels:
     nationTownUpkeepModifier: 1.0
   - kingPostfix: ''
     capitalPostfix: ''
-    upkeepModifier: 1.0
+    upkeepModifier: 1.45
     kingPrefix: 'Duke '
     capitalPrefix: ''
     numResidents: 20
@@ -189,7 +189,7 @@ levels:
     nationTownUpkeepModifier: 1.0
   - kingPostfix: ''
     capitalPostfix: ''
-    upkeepModifier: 1.0
+    upkeepModifier: 1.5
     kingPrefix: 'King '
     capitalPrefix: ''
     numResidents: 30
@@ -201,7 +201,7 @@ levels:
     nationTownUpkeepModifier: 1.0
   - kingPostfix: ''
     capitalPostfix: ''
-    upkeepModifier: 1.0
+    upkeepModifier: 1.9
     kingPrefix: 'Emperor '
     capitalPrefix: ''
     numResidents: 40
@@ -213,7 +213,7 @@ levels:
     nationTownUpkeepModifier: 1.0
   - kingPostfix: ''
     capitalPostfix: ''
-    upkeepModifier: 10.0
+    upkeepModifier: 2.1
     kingPrefix: 'God Emperor '
     capitalPrefix: ''
     numResidents: 60
