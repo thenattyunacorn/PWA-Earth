@@ -769,7 +769,7 @@ global_town_settings:
     own_town_and_wilderness_limited_commands: sethome,home
   
   # When enabled, town (and nation) names will automatically be capitalised upon creation.
-  automatic_capitalisation: 'true'
+  automatic_capitalisation: 'false'
   
   # This setting determines the list of allowed town map colors.
   # The color codes are in hex format.
@@ -1073,10 +1073,10 @@ protection:
   disable_creature_pressureplate_stone: 'true'
   
   # Remove living entities in the wilderness in all worlds that have wildernessmobs turned off.
-  wilderness_mob_removal_entities: Monster,Flying,Slime,Shulker,SkeletonHorse,ZombieHorse
+  wilderness_mob_removal_entities: Monster,Flying,Slime,Shulker
   
   # Globally remove living entities in all worlds that have worldmmobs turned off
-  world_mob_removal_entities: Monster,Flying,Slime,Shulker,SkeletonHorse,ZombieHorse
+  world_mob_removal_entities: Monster,Flying,Slime,Shulker
   
   # Prevent the spawning of villager babies in the world.
   world_prevent_villager_breeding: 'false'
@@ -1472,10 +1472,10 @@ economy:
   new_expand:
   
     # How much it costs to start a nation.
-    price_new_nation: '650.0'
+    price_new_nation: '1500.0'
   
     # How much it costs to start a town.
-    price_new_town: '250.0'
+    price_new_town: '650.0'
   
     # The base cost a town has to pay to merge with another town. The town that initiates the merge pays the cost.
     price_town_merge: '0'
@@ -1607,7 +1607,7 @@ economy:
   
     # The server's daily charge on each nation. If a nation fails to pay this upkeep
     # all of it's member town are kicked and the Nation is removed.
-    price_nation_upkeep: '30.0'
+    price_nation_upkeep: '50.0'
   
     # Uses the total number of plots which a nation has across all of its towns to determine upkeep
     # instead of nation_pertown_upkeep and instead of nation level (number of residents.)
@@ -1623,7 +1623,7 @@ economy:
   
     # The server's daily charge on each town. If a town fails to pay this upkeep
     # all of it's residents are kicked and the town is removed.
-    price_town_upkeep: '15.0'
+    price_town_upkeep: '20.0'
   
     # Uses total amount of owned plots to determine upkeep instead of the town level (Number of residents)
     # calculated by (number of claimed plots X price_town_upkeep).
@@ -1687,7 +1687,7 @@ economy:
   
       # If a town has reached their debt cap and is unable to pay the upkeep with debt,
       # will Towny delete them?
-      delete_towns_that_reach_debt_cap: 'false'
+      delete_towns_that_reach_debt_cap: 'true'
   
     nation_tax:
   
