@@ -34,16 +34,16 @@ war:
   disable_totem_of_undying: 'false'
   
   # When true, players cannot join a town while that town has an active war.
-  active_war_prevents_joining_town: 'true'
+  active_war_prevents_joining_town: 'false'
   
   # When true, mayors cannot join a nation while that nation has an active war.
-  active_war_prevents_joining_nation: 'true'
+  active_war_prevents_joining_nation: 'false'
   
   # When true, players cannot use /t leave while their town has an active war.
-  active_war_prevents_leaving_town: 'true'
+  active_war_prevents_leaving_town: 'false'
   
   # When true, mayors cannot use /n leave while their nation has an active war.
-  active_war_prevents_leaving_nation: 'true'
+  active_war_prevents_leaving_nation: 'false'
   
   
   ############################################################
@@ -325,7 +325,7 @@ war:
     civil_war:
   
       # Does the server allow civil wars?
-      enabled: 'false'
+      enabled: 'true'
   
       # How many seconds of delay before a civil war begins?
       startup_delay: '30'
@@ -373,7 +373,7 @@ war:
       token_cost: '90'
   
       # When true, a neutral nation cannot have a civil war.
-      does_neutrality_prevent_civil_war: 'false'
+      does_neutrality_prevent_civil_war: 'true'
   
       # When true the editable_materials in the WarZone Block Permissions section will be used.
       build_and_destroy_editable_materials: 'false'
@@ -392,10 +392,10 @@ war:
     nation_war:
   
       # Does the server allow nation wars?
-      enabled: 'false'
+      enabled: 'true'
   
       # When true, upon declaring war against a nation, both nations enemy each other.
-      does_nation_war_automaticly_add_enemy: 'false'
+      does_nation_war_automaticly_add_enemy: 'true'
   
       # How many seconds of delay before a nation war begins?
       startup_delay: '30'
@@ -448,7 +448,7 @@ war:
       token_cost: '150'
   
       # When true, a neutral nation cannot have a nation vs nation war.
-      does_neutrality_prevent_nation_war: 'false'
+      does_neutrality_prevent_nation_war: 'true'
   
       # When true the editable_materials in the WarZone Block Permissions section will be used.
       build_and_destroy_editable_materials: 'false'
@@ -546,7 +546,7 @@ war:
     # Add '-fire' to editable materials for complete protection when setting is false. This prevents fire to be created and spread.
     fire: 'true'
     explosions: 'true'
-    explosions_break_blocks: 'true'
+    explosions_break_blocks: 'false'
   
     # Only under affect when explosions_break_blocks is true.
     explosions_regen_blocks: 'true'
